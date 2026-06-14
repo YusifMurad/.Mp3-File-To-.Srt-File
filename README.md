@@ -1,10 +1,10 @@
-# 🎵 MP3 to SRT Converter
+MP3 to SRT Converter
 
 Convert MP3 audio files to SRT subtitle files using OpenAI Whisper — free, no installation needed.
 
 ---
 
-## 📖 User Guide
+ User Guide
 
 **Step 1 — Run Cell 1**
 Click ▶, wait until ✅ appears. Whisper and FFmpeg will be installed (~2 minutes).
