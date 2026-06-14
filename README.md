@@ -76,3 +76,9 @@ MP3, WAV, M4A, OGG, FLAC, MP4
 - [OpenAI Whisper](https://github.com/openai/whisper)
 - [Google Colab](https://colab.research.google.com)
 - [Gradio](https://gradio.app)
+
+
+
+## 🚀 Try it Live
+
+👉 [Open on Hugging Face Spaces]  https://yusifmurad-mp3-to-srt-converter.hf.space/
