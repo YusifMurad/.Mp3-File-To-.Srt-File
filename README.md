@@ -1,5 +1,4 @@
 # 🎵 MP3 to SRT Converter
-
 Convert MP3 audio files to SRT subtitle files using OpenAI Whisper — free, no installation needed.
 
 ---
@@ -10,18 +9,19 @@ Convert MP3 audio files to SRT subtitle files using OpenAI Whisper — free, no 
 Click ▶, wait until ✅ appears. Whisper and FFmpeg will be installed (~2 minutes).
 
 **Step 2 — Run Cell 2**
-Wait until "✅ Model loaded and ready!" appears.
+Wait until "✅ Model loaded and ready!" appears, then the app will open automatically.
 
-**Step 3 — Run Cell 3**
+**Step 3 — Upload your file**
 - Select the language of your audio from the dropdown
-- Click "Browse and select your MP3 file"
-- Select and upload your MP3 file
-- Wait — your SRT file will download automatically
+- Upload your audio file
+- Click **Convert to SRT →**
 
-**Step 4 — Done!**
-Your `.srt` file is ready in your Downloads folder.
+**Step 4 — Download your SRT**
+- Click the filename (e.g. `audio.srt`) under **Download SRT File**
+- A new tab will open showing the subtitle text
+- Press **Ctrl+S** (Windows) or **Cmd+S** (Mac) to save the file
 
-> ⚠️ When the file picker opens, always select a file — never close it without choosing!
+> ⚠️ Make sure to run Cell 1 fully before running Cell 2!
 
 ---
 
@@ -44,6 +44,7 @@ Your `.srt` file is ready in your Downloads folder.
 | Italian | `it` |
 | English | `en` |
 | Turkish | `tr` |
+| Azerbaijani | `az` |
 | Russian | `ru` |
 | Spanish | `es` |
 | French | `fr` |
@@ -66,6 +67,7 @@ MP3, WAV, M4A, OGG, FLAC, MP4
 - First run takes ~2 minutes (model download)
 - Free Google Colab has limited GPU time
 - Large files may take longer to process
+- The public link expires after 1 week — simply re-run Cell 2 to get a new one
 
 ---
 
@@ -73,3 +75,4 @@ MP3, WAV, M4A, OGG, FLAC, MP4
 
 - [OpenAI Whisper](https://github.com/openai/whisper)
 - [Google Colab](https://colab.research.google.com)
+- [Gradio](https://gradio.app)
